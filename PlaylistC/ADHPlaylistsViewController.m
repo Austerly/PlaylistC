@@ -20,6 +20,12 @@
 
 @implementation ADHPlaylistsViewController
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    [self.tableView reloadData];
+}
+
 - (IBAction)plusButtonTapped:(id)sender
 {
     NSString *name = self.nameTextField.text;

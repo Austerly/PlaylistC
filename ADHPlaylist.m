@@ -23,7 +23,7 @@
     self = [super init];
     if (self) {
         _name = [name copy];
-        _internalSongs = [songs copy];
+        _internalSongs = [songs mutableCopy];
     }
     return self;
 }
