@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ADHPlaylistsViewController.h
 //  PlaylistC
 //
 //  Created by Austin Hesterly on 9/29/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ADHPlaylistsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
-

@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		5013C7B91D9DE59C0025FD90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013C7B81D9DE59C0025FD90 /* main.m */; };
 		5013C7BC1D9DE59C0025FD90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013C7BB1D9DE59C0025FD90 /* AppDelegate.m */; };
-		5013C7BF1D9DE59C0025FD90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013C7BE1D9DE59C0025FD90 /* ViewController.m */; };
 		5013C7C21D9DE59C0025FD90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5013C7C01D9DE59C0025FD90 /* Main.storyboard */; };
 		5013C7C41D9DE59D0025FD90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5013C7C31D9DE59D0025FD90 /* Assets.xcassets */; };
 		5013C7C71D9DE59D0025FD90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5013C7C51D9DE59D0025FD90 /* LaunchScreen.storyboard */; };
+		5013C7D01D9DE7110025FD90 /* ADHSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013C7CF1D9DE7110025FD90 /* ADHSong.m */; };
+		5013C7D41D9DED560025FD90 /* ADHPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013C7D31D9DED560025FD90 /* ADHPlaylist.m */; };
+		5013C7D71D9DF32F0025FD90 /* ADHPlaylistController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013C7D61D9DF32F0025FD90 /* ADHPlaylistController.m */; };
+		5013C7DB1D9DF6DA0025FD90 /* ADHPlaylistsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013C7DA1D9DF6DA0025FD90 /* ADHPlaylistsViewController.m */; };
+		5013C7DF1D9DF71F0025FD90 /* ADHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5013C7DE1D9DF71F0025FD90 /* ADHDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		5013C7B81D9DE59C0025FD90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5013C7BA1D9DE59C0025FD90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5013C7BB1D9DE59C0025FD90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5013C7BD1D9DE59C0025FD90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5013C7BE1D9DE59C0025FD90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5013C7C11D9DE59C0025FD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5013C7C31D9DE59D0025FD90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5013C7C61D9DE59D0025FD90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5013C7C81D9DE59D0025FD90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5013C7CE1D9DE7110025FD90 /* ADHSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHSong.h; sourceTree = "<group>"; };
+		5013C7CF1D9DE7110025FD90 /* ADHSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHSong.m; sourceTree = "<group>"; };
+		5013C7D21D9DED560025FD90 /* ADHPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHPlaylist.h; sourceTree = "<group>"; };
+		5013C7D31D9DED560025FD90 /* ADHPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHPlaylist.m; sourceTree = "<group>"; };
+		5013C7D51D9DF32F0025FD90 /* ADHPlaylistController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHPlaylistController.h; sourceTree = "<group>"; };
+		5013C7D61D9DF32F0025FD90 /* ADHPlaylistController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHPlaylistController.m; sourceTree = "<group>"; };
+		5013C7D91D9DF6DA0025FD90 /* ADHPlaylistsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHPlaylistsViewController.h; sourceTree = "<group>"; };
+		5013C7DA1D9DF6DA0025FD90 /* ADHPlaylistsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHPlaylistsViewController.m; sourceTree = "<group>"; };
+		5013C7DD1D9DF71F0025FD90 /* ADHDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADHDetailViewController.h; sourceTree = "<group>"; };
+		5013C7DE1D9DF71F0025FD90 /* ADHDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADHDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +70,11 @@
 		5013C7B61D9DE59C0025FD90 /* PlaylistC */ = {
 			isa = PBXGroup;
 			children = (
+				5013C7DC1D9DF6E00025FD90 /* ViewControllers */,
+				5013C7D81D9DF3340025FD90 /* ModelControllers */,
+				5013C7D11D9DE7220025FD90 /* Models */,
 				5013C7BA1D9DE59C0025FD90 /* AppDelegate.h */,
 				5013C7BB1D9DE59C0025FD90 /* AppDelegate.m */,
-				5013C7BD1D9DE59C0025FD90 /* ViewController.h */,
-				5013C7BE1D9DE59C0025FD90 /* ViewController.m */,
 				5013C7C01D9DE59C0025FD90 /* Main.storyboard */,
 				5013C7C31D9DE59D0025FD90 /* Assets.xcassets */,
 				5013C7C51D9DE59D0025FD90 /* LaunchScreen.storyboard */,
@@ -77,6 +90,38 @@
 				5013C7B81D9DE59C0025FD90 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5013C7D11D9DE7220025FD90 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5013C7CE1D9DE7110025FD90 /* ADHSong.h */,
+				5013C7CF1D9DE7110025FD90 /* ADHSong.m */,
+				5013C7D21D9DED560025FD90 /* ADHPlaylist.h */,
+				5013C7D31D9DED560025FD90 /* ADHPlaylist.m */,
+			);
+			name = Models;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		5013C7D81D9DF3340025FD90 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5013C7D51D9DF32F0025FD90 /* ADHPlaylistController.h */,
+				5013C7D61D9DF32F0025FD90 /* ADHPlaylistController.m */,
+			);
+			name = ModelControllers;
+			sourceTree = "<group>";
+		};
+		5013C7DC1D9DF6E00025FD90 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5013C7D91D9DF6DA0025FD90 /* ADHPlaylistsViewController.h */,
+				5013C7DA1D9DF6DA0025FD90 /* ADHPlaylistsViewController.m */,
+				5013C7DD1D9DF71F0025FD90 /* ADHDetailViewController.h */,
+				5013C7DE1D9DF71F0025FD90 /* ADHDetailViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,9 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5013C7BF1D9DE59C0025FD90 /* ViewController.m in Sources */,
 				5013C7BC1D9DE59C0025FD90 /* AppDelegate.m in Sources */,
+				5013C7DF1D9DF71F0025FD90 /* ADHDetailViewController.m in Sources */,
+				5013C7D71D9DF32F0025FD90 /* ADHPlaylistController.m in Sources */,
+				5013C7D01D9DE7110025FD90 /* ADHSong.m in Sources */,
 				5013C7B91D9DE59C0025FD90 /* main.m in Sources */,
+				5013C7DB1D9DF6DA0025FD90 /* ADHPlaylistsViewController.m in Sources */,
+				5013C7D41D9DED560025FD90 /* ADHPlaylist.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
